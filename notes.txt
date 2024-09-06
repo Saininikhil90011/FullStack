@@ -1,0 +1,19 @@
+fullstack development=>
+1.front end => ui
+a.html
+b.css => bootstrap,tailwind
+c. java script => jquery,react,vue,angular
+2.backend =>logic
+i) backend language => php,java,python, node
+ii) database =>sql vs nosql
+iii)server => Nginx,apache, tomcat
+
+MERN stack development =>
+M- mongodb
+E- Express
+R- React 
+N-Node 
+
+
+
+
