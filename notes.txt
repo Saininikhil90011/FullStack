@@ -15,5 +15,11 @@ R- React
 N-Node 
 
 
+Table => 
+tr => table row 
+td => table data 
+th => table heading 
+
+
 
 
