@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            border: 1px solid ;
+            mask-type:initial;
+            list-style: square ;
+            /* list-style: inside; */
+            
+        }
+        li{
+            border: 1px solid;
+        }
+
+        .a{
+            /* list-style: lower-alpha; */
+            list-style: inside;
+            border: 1px solid;
+        }
+        .A{
+            list-style: upper-alpha;
+            border: 1px solid;
+        }
+        ul::before{
+            content: "grapes";
+            border: 1px solid;
+        }
+        ul::after{
+            content: "kivi";
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Papaya</li>
+        <li>Orange</li>
+        <li>Mango</li>
+
+    </ul>
+
+
+    <ol class="a">
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Papaya</li>
+        <li>Orange</li>
+        <li>Mango</li>
+    </ol>
+    <ol class="A">
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Papaya</li>
+        <li>Orange</li>
+        <li>Mango</li>
+    </ol>
+</body>
+</html>

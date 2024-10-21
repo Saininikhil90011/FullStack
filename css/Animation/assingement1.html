@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .box{
+        width: 100px;
+        height: 100px;
+        border: 1px solid;
+        animation-iteration-count: infinite;
+        animation-duration: alternate;
+        animation-name: A;
+        animation-duration:2s;
+
+      }
+      @keyframes A{
+        0%{background-color: blue;}
+        50%{background-color: yellow;
+        transform: translate(25vw,200px);}
+        100%{background-color: lime;
+        /* transform: translateX(50vw - 50px);  */
+    border-radius: 50%;}
+      }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

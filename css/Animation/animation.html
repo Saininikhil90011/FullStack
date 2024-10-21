@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50vh;
+            background-color:aquamarine;
+            overflow: hidden;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 2px solid;
+            background-color: blue;
+           
+        }
+        .a{
+            width: 20px;
+            height: 20px;
+            border: 1px solid;
+            border-radius: 50%;
+            animation-name: a;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation: 100%;
+        }
+        @keyframes a{
+            0%{background-color: red;}
+            25%{background-color: orangered;
+                transform: translatex(181px);
+            }
+            50%{background-color: black;
+                transform: translate(181px,181px);
+            }
+            75%{background-color: yellow;
+                transform: translatey(181px);
+            }
+
+            100%{background-color: rgb(16, 213, 239);
+                background-color: greenyellow;}
+
+        }
+            
+        
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="a"></div>
+    </div>
+</body>
+</html>
