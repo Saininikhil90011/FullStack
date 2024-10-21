@@ -1,0 +1,40 @@
+
+ If the temperature is below 0°C, is it freezing? Else if the temperature is between 0°C and 20°C, is it cold? Else, is it warm?👍
+change the text of pra 
+
+If a student scores above 90, did they receive an A? Else if the score is between 80 and 89, did they receive a B? Else, did they fail?👍
+a= bold
+
+If a person is under 13, are they a child? Else if they are between 13 and 19, are they a teenager? Else, are they an adult?👍
+title = value
+
+If a customer spends over $100, do they get a 20% discount? Else if they spend between $50 and $100, do they get a 10% discount? Else, do they get no discount?👍
+  background change green, yello, red
+
+If a person is 16 or older, can  obtain a learner’s permit? Else if they are between 14 and 15, theycan they take a driver’s education course? Else, are they too young to drive?👍
+learner=class
+
+
+
+
+If a player scores more than 30 points in a game, did they have an outstanding performance? Else if they score between 15 and 30 points, did they have a decent performance? Else, did they struggle in the game?👍
+
+
+
+If a user has a premium plan, do they have access to all features? Else if they have a standard plan, do they have limited features? Else, are they on a free trial?//////////////////////////////////
+
+If the account balance is below $0, is the account overdrawn? Else if the balance is between $0 and $100, is it low? Else, is it in good standing?👍
+
+If the heart rate is over 100 bpm, is the person exercising? Else if it’s between 60 and 100 bpm, is it normal? Else, is it too low?👍
+
+If the event is sold out, are there no tickets available? Else if it’s a VIP event, is the ticket price higher? Else, is the price standard?//////////////////////////////
+
+If the speed is above 100 Mbps, is it high-speed internet? Else if it’s between 25 and 100 Mbps, is it moderate? Else, is it slow??👍
+
+If a banana is brown, is it overripe? Else if it’s yellow, is it ripe? Else, is it still green?
+
+If a movie is rated R, is it for mature audiences? Else if it’s PG-13, is it for older children and teens? Else, is it suitable for all ages?
+
+If an item is on sale, should I buy it? Else if it’s a necessity, should I consider buying it anyway? Else, can I skip it?
+
+

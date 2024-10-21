@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Flex Boxes</title>
+    <style>
+       
+        .container {
+            width: 100%;   
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid black;
+        }
+        #flexContainer {
+            display: flex;
+            flex-wrap: wrap; 
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+<button id="createBox">Create Box</button>
+<button id="deleteBox"> Delete Box</button>
+
+<div class="container">
+    <div id="flexContainer"></div>
+</div>
+<script>
+
+ 
+    document.getElementById('createBox').addEventListener('click', function() {
+        // Create a new box element
+        let box = document.createElement('div');
+        box.className = 'box';
+        box.style= "background-color: red;";
+
+        box.textContent = 'Box';
+
+        // Append the box to the flex container
+        document.getElementById('flexContainer').appendChild(box);
+
+    });
+
+
+    document.getElementById('deleteBox').addEventListener('click', function() {
+        // Get the last box element
+        let box = document.getElementById('flexContainer').lastChild;
+        // Remove the box from the flex container
+        document.getElementById('flexContainer').removeChild(box);
+    })
+</script>
+
+</body>
+</html>

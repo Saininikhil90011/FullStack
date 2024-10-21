@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="a">helloooooo</p>
+    <p class="b">hello2</p>
+    <h1 class="b">hello</h1>
+    <button class="a b c">click me!</button>
+<script>
+    let p =document.getElementById("a")
+    // console.log(p)
+    let a =document.getElementsByClassName("b")
+    // console.log(a)
+
+    let b =document.getElementsByTagName("p")
+    // console.log(b)
+
+let c = document.querySelector("#a")
+let e = document.querySelector(".b")
+// console.log(c)
+
+let d = document.querySelectorAll(".b")
+// console.log(d)
+// console.log(p.innerText)
+// p.innerText = "hello world"
+// c.innerHTML ='<b>hello everyone</b>'
+// h1.style.color='red'
+// p.style.backgroundColor = "red"
+// console.log(c.getAttribute("id"))
+// e.setAttribute("align", "center")
+// e.removeAttribute("align")
+let f=document.querySelector("button")
+console.log(f.classList)
+f.classList.add("d")
+f.classList.remove("a")
+e.classList.toggle("a")
+
+    
+</script>
+
+</body>
+</html>

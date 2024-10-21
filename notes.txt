@@ -2,6 +2,7 @@ fullstack development=>
 1.front end => ui
 a.html
 b.css => bootstrap,tailwind
+3
 c. java script => jquery,react,vue,angular
 2.backend =>logic
 i) backend language => php,java,python, node
@@ -19,6 +20,27 @@ Table =>
 tr => table row 
 td => table data 
 th => table heading 
+
+
+
+css>>>>>>>
+greadiante
+filters
+list
+mediya quary
+befor-after
+
+
+
+js<<<<<<<<<
+
+
+function
+date & time
+dom 
+oops
+promiss
+falidation
 
 
 
