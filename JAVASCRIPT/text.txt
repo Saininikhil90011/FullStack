@@ -1,22 +1,27 @@
-Array  => collection of multiple datatype in array.
-
-method of a array=>
-
-push => add the value in last index
-pop = > remove the value in last index
-unsift => add the value in zero index in a array
-sift => remove the value in zero index in a array
-slice => cut the value in arrya in mide array
-
-
 Different b/t VarDate, let , Const =>
 var => store the value and this is a Function Scope 
 Const => not change value and this block Function
 let =>this is a block function  
 
 
-loop=>
+loop=>>>>>>>>>
+
 for loop
 while loop
 do-while loop
 for-in loop
+
+Array  => collection of multiple datatype in array.
+method of a array=>
+
+
+1.length = > return length of array 
+2.push => add element at last index
+3.pop = > remove element at last index
+4.sift => remove element zero index in a array
+5.unsift => add element in zero index in a array
+6.splice = >removes part of array
+7.slice => cut the value in arrya in mide array
+8.concat => concatenates two arrays(add array)
+9.toString = > converts array to string
+

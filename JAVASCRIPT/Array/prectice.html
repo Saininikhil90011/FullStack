@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 1. find the length of an array
+
+        // let arr=[1,2,3,4,5,6,7,8,9,10 ]
+        // document.write(arr.length);
+
+        // 2. push (adds element at last)
+
+        // let arr=[1,2,3,4,5,6,7,8,9,10 ]
+        // arr.push(11,12,13,14,15,16,17,18,19,20)
+        // document.write(arr);
+
+        // 3. pop(remove element at last element)
+
+        // let num =[11,33,44,66,88,99,100,200,300,400]
+        // num.pop()
+        // document.write(num)
+
+        // 4. shift (removes first element)
+
+        // let name = ["Ram", "Shyam", "Hari", "Sita", "Gita"];
+        // name.shift();
+        // document.write(name);
+
+        // 5. unshift (add element in zero index)
+
+        // let name = ["Ram", "Shyam", "Hari", "Sita", "Gita"];
+        // name.unshift("Pritam");
+        // document.write(name);
+
+
+        // 6. slice (returns part of array)
+
+        // let name = ["Ram", "Shyam", "Hari", "Sita", "Gita"];
+        // let removename= name.slice(0,1)
+        // document.write(removename);
+
+        // 7. splice (removes part of array)
+
+        let name = ["Ram", "Shyam", "Hari", "Sita", "Gita", "Dimple", "Jiya", "Vijay"];
+        let sub = name.splice(3,7)
+        document.write(sub);
+
+
+
+
+        // let name = ["Ram", "Shyam", "Hari", "Sita", "Gita", "Dimple", "Jiya", "Vijay"];
+        // let subadd = name.slice(3,4, " geeta", " priya");
+
+        // document.write(subadd);
+
+        //    8. concat (concatenates two arrays)
+
+        // let arr1=[1,2,3,4,5,6,7,8,9,10]
+        // let arr2=[11,12,13,14,15,16,17,18,19,20]
+        // let arr3=[21,22,23,24,25,26,27,28,29,30]
+        // let newarr = arr1.concat(arr2,arr3)
+        // document.write(newarr);
+
+        // 9. toString (converts array to string)
+
+        // let name = ["Ram", "Shyam", "Hari", "Sita", "Gita", "Dimple", "Jiya", "Vijay"];
+        // let sub = name.toString()
+        // document.write(sub);
+
+        // 10. join (joins all elements of an array into a string)
+
+        // let course = ["C++", "Java", "Python", "Javascript",]
+        // let str = course.join('  ')
+        // document.write(str);
+
+        // let person={
+        //     Firstname:"Nikhil",
+        //     lastname:"Saini",
+        //     gender:"male",
+        //     city:"jaipur",
+        //     age: 22
+        // }
+        // document.write(delete person.city);
+        // document.write(person.Firstname);  
+
+        let arr = [1,2,3,4,5,6,7,8,9,10]
+        let sum = 0
+        for(let i = 0; i<arr.length; i++){
+            sum += arr[i]
+        }
+        document.write(sum)
+
+
+
+
+    </script>
+    
+</body>
+</html>

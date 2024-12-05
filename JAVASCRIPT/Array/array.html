@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //  Array Methods
+        // 1. length
+        // 2. push
+        // 3. pop
+        // 4. shift
+        // 5. unshift
+        // 6. slice
+        // 7. splice
+        // 8. concat
+        // 9. toString
+        // 10. join
+
+        
+
+        // 1. length (returns length of array)
+
+        // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];        // This is a Array
+
+        // let sub = ['Html','Css','Javascript','Bootstrap'];
+
+        // document.write(sub.length);      // length is : 4
+
+
+        // 2. push (adds element at last)
+
+        // let a = [1 , 2, 4, 5 , 6, 7, 8 ];
+
+        // a.push(50, 50, 50);   // adds element at last
+        // a.push(70, 90, 100, 120 ,300);    // adds element at last
+
+        // document.write(a);            // Output:- [1, 2, 4, 5, 6, 7, 8, 50, 50, 50, 70, 90, 100, 120, 300]
+
+
+        // 3. pop  (removes last element)
+
+        // let arr = [ 20, 30, 40 , 50 , 560 , 700];
+        // arr.pop();       // removes last element
+
+        // document.write(arr);     // output : [20, 30, 40, 50, 560]
+
+
+        // 4. shift (removes first element)
+
+        // let name = [ "Ram", "Shyam", "Hari", "Sita", "Gita"];
+        // name.shift();            // removes first element
+        // document.write(name);     // output : ["Shyam", "Hari", "Sita", "Gita"]
+
+
+        // 5. unshift (adds element at first)
+
+        // let user = ["Jay","Pritam","Jiya","Sagar","Vijay"];
+
+        // user.unshift("Ram");     // adds element at first
+
+        // document.write(user);    // output : ["Ram", "Jay", "Pritam", "Jiya", "Sagar", "Vijay"]
+
+
+        // 6. slice (returns part of array)
+
+        // let name = ["Ram", "Shyam", "Hari", "Sita", "Gita"];
+
+        // let sub = name.slice(2,4);     // returns from 2nd index to 4th index
+
+        // document.write(sub);     // output : ["Hari", "Sita"]
+
+        // 7. splice (removes part of array)
+
+        // let a = [ 20, 30, 40 , 50 , 560 , 700];
+
+        // let sub = a.splice(2, 3);          // removes from 2nd index to 3rd index
+
+        // document.write(a);     // output : [20, 30, 700]
+
+
+        // Declare and initialize array
+        // let strArr = ["amit", "sumit", "anil"];
+
+        // Delete two elements starting from index 1
+        // and add three elements.
+        // strArr.splice(1, 2, "Geeks", "Geeks1", "Geeks2");
+
+        // Display the modified array
+        // document.write(strArr);    // output : ["amit", "Geeks", "Geeks1", "Geeks2", "anil"]
+
+
+        // 8. concat (concatenates two arrays)
+
+        // let arr1 = [1, 2, 3, 4, 5];
+        // let arr2 = [30, 40, 50, 70, 90];
+        // let arr3 = [100, 230, 400, 500, 680, 1000];
+
+        // let newArray = arr1.concat(arr2, arr3);
+        // document.write(newArray);               // output : [1, 2, 3, 4, 5, 30, 40, 50, 70, 90, 100, 230, 400, 500, 680, 1000]
+
+
+        // 9. toString (converts array to string)
+
+        // let  course = ["C++", "Java", "Python", "Javascript"];
+        // let str = course.toString();
+        // document.write(course);     // output : C++ Java Python Javascript
+
+        // let a = [1, 3, 4, 5, 6 , 9]
+        // let str = a.toString();
+        // document.write(a);   // output : 1,3,4,5,6,9
+
+
+        // 10. join (joins all elements of an array into a string)
+
+
+        // let course = ["C++", "Java", "Python", "Javascript"];
+        // let str = course.join('/');
+        // document.write(str);     // output : C++ Java Python Javascript
+
+        // let a = [1, 3, 4, 5, 6 , 9]
+        // document.write(a.join('*'));   // output : 1,3,4,5,6,9
+
+        //  11 delete  (removes element from array)
+
+        // let a = [1, 3, 4, 5, 6 , 9]
+        // delete a[1];
+        // document.write(a);   // output : [1, 4, 5, 6 , 9]
+
+
+        // let person = {
+        //     firstName: "Chirag",
+        //     lastName: "Prajapat",
+        //     salary: 50000
+        // }
+        // console.log(delete person.salary);
+        // console.log(person);
+
+
+        // 12. flat (returns a new array with all sub-array elements concatenated into it)
+
+
+        // let arr = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+        // let flatArr = arr.flat();
+        // document.write(flatArr );     // output : [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+
+        // let arr1 = [["Shyam", "Ram","Hari"],["Sita", "Gita"],["Dimple", "Jiya"]];
+
+        // let flatArr1 = arr1.flat();
+
+        // document.write(flatArr1);     // output : ["Shyam", "Ram","Hari","Sita", "Gita","Dimple", "Jiya"]
+
+        
+        // 13. some (checks whether some element is present in array or not)
+
+
+        // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+        // let result = arr.some((value) => {     // checks whether some element is present in array or not 
+        //     return value > 15
+        // })
+        // document.write(result);    // output : true
+
+
+        // 14. reduce (reduces an array to a single value)
+
+
+        // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        // let result = arr.reduce((a, b) => {
+        //     return a + b
+        // })
+        // document.write(result);    // output : 55
+
+        // let arr1 = [88, 50 , 25, 10];
+
+        // let sub = arr1.reduce(geeks);
+        // function geeks(total, num){
+        //     return total - num
+        // }
+
+        // document.write(sub);
+
+        //  15. forEach (executes a provided function once for each array element)
+
+
+        // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        // arr.forEach((value) => {
+        //     document.write(value);
+        // })                           // output : 1 2 3 4 5 6 7 8 9 10
+
+        // 16. sort (sorts an array)
+
+
+        // let arr = [1, 2, 3, 4, 5, 6, 7,30, 20, 39 ,44];
+        // arr.sort();
+        // document.write(arr);     // output : [1 , 2, 20, 3, 30,39,4,44,5,6,7]
+
+
+        // 17. filter (returns a new array with all elements that pass the test implemented by the provided function)
+
+
+        // let arr = [1, 2, 3,34, 6, 5, 10 , 44, 50];
+        // let result = arr.filter((value) => {
+        //     return value > 9
+        // })
+        // document.write(result);    // output : [34, 10, 44, 50]
+
+
+        // 18. map (creates a new array with the results of calling a provided function on every element in the calling array)
+
+
+        // let arr = [4, 6, 9, 10, 20, 55];
+        // let result = arr.map((value) => {
+        //     return value * 2
+        // })
+        // document.write(result);    // output : [8, 12, 18, 20, 40, 110]
+
+
+        // 19 reverse (reverses an array)
+
+        // let sub = ['hindi', 'english', 'marathi', 'gujarati'];
+        // sub.reverse();
+        // document.write(sub);    // output : ["gujarati", "marathi", "english", "hindi"]
+
+        // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        // arr.reverse();
+        // document.write(arr);    // output : [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+
+        // 20. valueOf (returns the primitive value of the specified object)
+
+
+        // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        // let result = arr.valueOf();
+        // document.write(result);  // output : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+        // 21. indexOf (returns the index of the first element in an array that satisfies the provided testing function)
+
+
+        // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        // let result = arr.indexOf(4);
+        // document.write(result);  // output : 3
+
+        // 22. lastIndexOf (returns the index of the last element in an array that satisfies the provided testing function)
+
+        // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        // let result = arr.lastIndexOf(4);
+        // document.write(result);  // output : 3
+
+        // let sub = ["c++", "java", "python", "javascript"];
+        // let last = sub.lastIndexOf("java");
+        // document.write(last);  // output : 1
+
+        // let sub = ["Hello World new"];
+        // let last = sub.lastIndexOf("hello");
+        // document.write(last);
+
+        // let my = "Hello World";
+        //  let myNew = "W";
+        // let last = my.lastIndexOf(myNew);
+        // document.write(last);   // output : 6
+
+        // 23. every (checks whether all elements in an array pass the test implemented by a provided function)
+
+
+        // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        // let result = arr.every((value) => {
+        //     return value > 9
+        // })
+        // document.write(result);  // output : false
+
+
+        // 24. find (find the first element in an array that satisfies the provided testing function)
+
+        // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        // let result = arr.find((value) => {
+        //     return value > 9
+        // })
+        // document.write(result);  // output : 10
+
+        // 25. findIndex (find the index of the first element in an array that satisfies the provided testing function) 
+
+
+        // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        // let result = arr.findIndex((value) => {
+        //     return value > 9
+        // })
+        // document.write(result);  // output : 9
+
+        // 26. forEach (executes a provided function once for each array element)
+
+        // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        // arr.forEach((value) => {
+        //     document.write(value);
+        // })
+
+        // 27. for in (loops through the properties of an object)   
+
+
+        // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        // for (let i in arr) { 
+        //     document.write(arr[i]);
+        // }    // output : 1 2 3 4 5 6 7 8 9 10
+
+
+        // 28. for of (loops through the values of an iterable object)
+
+        // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        // for (let i of arr) { 
+        //     document.write(i);
+        // }    // output : 1 2 3 4 5 6 7 8 9 10
+
+        
+        
+   </script>
+</body>
+</html>

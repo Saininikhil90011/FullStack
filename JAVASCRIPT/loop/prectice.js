@@ -235,11 +235,6 @@
 // }console.log(totalSum);
 
 
-
-
-
-
-
 // question =16
 // Print the sum of all even numbers from 1 to 100.
 
@@ -264,3 +259,71 @@
 // }
 // console.log( sum)
 
+
+//..............>>>>>>>.........>....>..........>...>..................>......................>>..>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+//   let arr = [1,2,3,4,5,6,7,8,9,10]
+//    for(let i=0;i<arr.length;i++){
+//     // console.log('// ' + arr[i])
+//     document.write(' ' +arr[i])
+//    }
+
+// quwtion =1 Print all numbers from 1 to 100 that are divisible by 3.
+// let i =100;
+// for(let i =1; i<=100; i++){
+//     if (i%7==0)
+//         console.log(i)
+// }
+
+// let arr = [1,2,3,4,5,6,7,8,9,10]
+// let num = 10 
+// for(let i =0; i<=num; i++){
+//     console.log( ' ' +"Nikhil")
+// }
+// console.log("Nikhil")
+
+
+//   let num = 10
+//   for(let i =0; i<=num; i++){
+//     let sum = 0
+//     sum += i
+//     document.write(' ' +sum)
+//   }
+// let num =5 
+// let fact = 1
+// for( let i =1; i<=num; i++){
+//     fact = fact * i
+// //   document.write(' ' +fact)
+// console.log(fact)
+// }
+
+//while loop =>
+
+// while(condintion){
+//  excute the code 
+// }
+
+// let nu = 5
+// while(nu>0){
+//     // document.write(' ' +"Nikhil")
+//     console.log("Nikhil")
+    
+// }
+
+
+// Do while 
+
+//  do{
+//     CODE TO BE EXECUTED
+//  }while(condintion){
+//  }  
+
+
+// let num = 10
+// let sum = 20
+// while(num<10){
+//     sum += num
+//     num++
+// }
+// console.log(sum)

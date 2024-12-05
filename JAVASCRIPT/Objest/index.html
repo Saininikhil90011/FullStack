@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let person = {
+        name: "Nikhil",
+        age: 20,
+        city: "Jaipur",
+        marks: [23, 33, 54, 29, 98],
+        details: {
+          mob: 1234567890,
+        },
+        totalmarks: function () {
+          sum = 0;
+          for (let i of this.marks) {
+            sum += i;
+          }
+          return sum;
+        }
+      };
+      console.log(person.name) 
+      console.log(person.age)
+      console.log(person.city)
+      console.log(person.details.mob)
+      console.log(person['marks'])
+      console.log(person.totalmarks())
+      console.log(person['totalmarks']())
+
+    </script>
+  </body>
+</html>

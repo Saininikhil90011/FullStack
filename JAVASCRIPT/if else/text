@@ -9,7 +9,7 @@ If a person is under 13, are they a child? Else if they are between 13 and 19, a
 title = value
 
 If a customer spends over $100, do they get a 20% discount? Else if they spend between $50 and $100, do they get a 10% discount? Else, do they get no discount?👍
-  background change green, yello, red
+background change green, yello, red
 
 If a person is 16 or older, can  obtain a learner’s permit? Else if they are between 14 and 15, theycan they take a driver’s education course? Else, are they too young to drive?👍
 learner=class
