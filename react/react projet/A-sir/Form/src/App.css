@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(240, 236, 245);  
+}
+
+.navbar {
+  background-color: rgb(40, 112, 221);
+}
+.container {
+  background: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+.bg-white {
+  border-radius: 10px;
+}
+
+.duqXrA {
+  background-color: rgb(40, 112, 221);
+  color: white;
+  padding-left: 10px;
+  padding-right: 5px;
+  border-radius: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+.duqXrA:hover {
+  background-color: white;
+  color: rgb(40, 112, 221);
+}
+
+.page {
+  width: 80%;
+  background: #fff;
+  padding-top: 30px;
+  /* border: 1px solid #000; */
+  border-radius: 5px;
+}
