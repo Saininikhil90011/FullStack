@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+:root{
+    --bs-dark-color:#1a1b20;
+    --bs-dark-primmary:#1c1c1c;
+    --bs-main-color:#fff;
+    --bs-primary-color:#c6c6c6;
+    --second-color:#e5e5e5;
+    --bs-supporting-color:#c850c0 ;
+
+}h1,h2,h3,h4,h5{
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--bs-dark-color);
+}
+h1{
+    font-size: 3.8rem;
+}
+h2{
+    line-height: 3rem;
+    font-weight: 600;
+    font-size: 3.2rem;
+}
