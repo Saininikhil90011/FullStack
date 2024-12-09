@@ -1,66 +1,347 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
     <title>Document</title>
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Contact</a>
-              </li>
-            </ul>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-color py-5 pt-lg-5">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero-section start -->
+    <section class="bg-main bg-color hero-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div
+            class="col-12 col-md-12 col-lg-6 d-flex flex-column justify-content-center align-items-start"
+          >
+            <h1 class="text-capitalize fw-bolder text-white">
+              We Colleect Quality Leads
+            </h1>
+            <p class="mt-3 mb-5 para-width text-light-gray">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Similique ipsam temporibus deleniti est placeat explicabo, iure
+              neque reiciendis repellendus! Quas sunt voluptate aliquam corrupti
+              possimus minus, nobis odio voluptatum consequatur!
+            </p>
+            <div class="text-center w-100 text-md-start">
+              <button class="text-capitalize btn btn-primary px-5 py-2">
+                <u
+                  class="text-decoration-none"
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Contact Us"
+                  >Contact Us</u
+                >
+              </button>
+            </div>
+          </div>
+          <!-- hero-section iamge -->
+          <div class="col-12 col-md-12 col-lg-6">
+            <div class="text-center text-lg-end">
+              <video
+                src="./images/hero-section-video.mp4"
+                loop
+                autoplay
+                muted
+                class="hero-section-video"
+              ></video>
+            </div>
           </div>
         </div>
-      </nav>
-
-      <!-- hero-section start -->
-    <section class="bg-main bg-color hero-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-12 col-lg-6  d-flex flex-column justify-content-center  align-items-start ">
-                    <h1 class="text-center">We Colleect Quality Leads</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique ipsam temporibus deleniti est placeat explicabo, iure neque reiciendis repellendus! Quas sunt voluptate aliquam corrupti possimus minus, nobis odio voluptatum consequatur!</p>
-                    <div class="text-center">
-                        <button class="text-capitalize" data-bs-toggle="tooltip" data-bs-title="Contact Us" >Contact Us</u></button>
-                    </div>
-                </div>
-                <!-- hero-section iamge -->
-                <div class="col-12 col-md-12 col-lg-6 " >
-                    <div class="text-center">
-                        <video src="./images/hero-section-video.mp4" loop autoplay muted></video>
-
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
+      <div class="custom-shape-divider-bottom-1733686943">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
     </section>
     <!-- hero-section end -->
+    <!-- Services Section Start -->
+    <section class="services-section">
+      <div class="container text-center common-title fw-bold">
+        <h2 class="commn-heading">What We Will DO For <br />YOur Business</h2>
+        <hr class="w-25 mx-auto" />
+      </div>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-12 col-lg-4 col-md-12">
+            <div class="text-center card-box rounded-2 p-5 shadow">
+              <img
+                src="./images/servise01.gif"
+                alt="link"
+                class="img-fluid"
+                width="200px"
+              />
+              <h5 class="my-3 fsw-normal">Link Building</h5>
+              <p class="mb-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                ut repellendus quae quam aliquid tempora labore aperiam minus
+                dicta corrupti, id maiores, consequatur itaque incidunt quas.
+                Ratione pariatur corrupti quisquam.
+              </p>
+              <div class="d-flex justify-content-center align-items-center">
+                <a
+                  href="#service"
+                  class="icon-span rounded-circle d-flex justify-content-center align-items-center"
+                >
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 col-md-12">
+            <div class=".servicesCard rounded-2 p-5 shadow">
+              <img
+                src="./images/servise02.gif"
+                alt="link"
+                class="img-fluid"
+                width="200px"
+              />
+              <h5 class="my-3 fsw-normal">Content marketing</h5>
+              <p class="mb-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                ut repellendus quae quam aliquid tempora labore aperiam minus
+                dicta corrupti, id maiores, consequatur itaque incidunt quas.
+                Ratione pariatur corrupti quisquam.
+              </p>
+              <div class="d-flex justify-content-center align-items-center">
+                <a
+                  href="#service"
+                  class="icon-span rounded-circle d-flex justify-content-center align-items-center"
+                >
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 col-md-12">
+            <div class="text-center card-box rounded-2 p-5 shadow">
+              <img
+                src="./images/servise03.gif"
+                alt="link"
+                class="img-fluid"
+                width="200px"
+              />
+              <h5 class="my-3 fsw-normal">On Page SEO</h5>
+              <p class="mb-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                ut repellendus quae quam aliquid tempora labore aperiam minus
+                dicta corrupti, id maiores, consequatur itaque incidunt quas.
+                Ratione pariatur corrupti quisquam.
+              </p>
+              <div class="d-flex justify-content-center align-items-center">
+                <a
+                  href="#service"
+                  class="icon-span rounded-circle d-flex justify-content-center align-items-center"
+                >
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services Section end -->
 
+    <!-- Digitl product showcase -->
+
+    <section class="bg-color more-info-section p-5rem">
+      <div class="container">
+        <div class="row mb-5">
+          <!-- -section iamge -->
+          <div class="col-12 col-md-12 col-lg-6 img-section">
+            <figure>
+              <img
+                src="./images/product01.gif"
+                alt="desital product"
+                class="img-fluid"
+              />
+            </figure>
+          </div>
+          <div
+            class="col-12 col-md-12 col-lg-6 d-flex flex-column justify-content-center align-items-start"
+          >
+            <h2 class="text-capitalize fw-bolder text-white mt-5rem">
+              Step to Build a <br />
+              Successful Digital Product
+            </h2>
+            <p class="mt-3 mb-5 para-width text-light-gray">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Similique ipsam temporibus deleniti est placeat explicabo, iure
+              neque reiciendis repellendus! Quas sunt voluptate aliquam corrupti
+              possimus minus, nobis odio voluptatum consequatur!
+            </p>
+            <div class="text-center w-100 text-md-start">
+              <button class="text-capitalize btn btn-primary px-5 py-2">
+                <u
+                  class="text-decoration-none"
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Contact Us"
+                  >Contact Us</u
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Digitl product showcase end -->
+
+    <!-- Online mood section stsrt -->
+
+    <section class="online-mood-section">
+      <div class="container text-center common-title fw-bold">
+        <h2 class="commn-heading">
+          Generating New Costomer Via <br />
+          Online Mode
+        </h2>
+        <hr class="w-25 mx-auto" />
+      </div>
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-12 col-m-12 col-lg-6">
+            <div class="d-flex py-5 shadow">
+              <img
+                src="./images/product01.gif"
+                alt="gif img"
+                class="d-md-block d-none img-fluid mx-3"
+                width="150px"
+              />
+
+              <div>
+                <p class="mv-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officia at excepturi explicabo repellat architecto dolorem
+                  neque possimus quibusdam temporibus deserunt quo tenetur
+                  perferendis enim ipsam expedita magnam veritatis,
+                  reprehenderit impedit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-m-12 col-lg-6">
+            <div class="d-flex py-5 shadow">
+              <img
+                src="./images/product01.gif"
+                alt="gif img"
+                class="d-md-block d-none img-fluid mx-3"
+                width="150px"
+              />
+
+              <div>
+                <p class="mv-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officia at excepturi explicabo repellat architecto dolorem
+                  neque possimus quibusdam temporibus deserunt quo tenetur
+                  perferendis enim ipsam expedita magnam veritatis,
+                  reprehenderit impedit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-m-12 col-lg-6">
+            <div class="d-flex py-5 shadow">
+              <img
+                src="./images/product01.gif"
+                alt="gif img"
+                class="d-md-block d-none img-fluid mx-3"
+                width="150px"
+              />
+
+              <div>
+                <p class="mv-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officia at excepturi explicabo repellat architecto dolorem
+                  neque possimus quibusdam temporibus deserunt quo tenetur
+                  perferendis enim ipsam expedita magnam veritatis,
+                  reprehenderit impedit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-m-12 col-lg-6">
+            <div class="d-flex py-5 shadow">
+              <img
+                src="./images/product01.gif"
+                alt="gif img"
+                class="d-md-block d-none img-fluid mx-3"
+                width="150px"
+              />
+
+              <div>
+                <p class="mv-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officia at excepturi explicabo repellat architecto dolorem
+                  neque possimus quibusdam temporibus deserunt quo tenetur
+                  perferendis enim ipsam expedita magnam veritatis,
+                  reprehenderit impedit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Online mood section end -->
     <script src="script.js"></script>
     <script>
-        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+      const tooltipTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="tooltip"]'
+      );
+      const tooltipList = [...tooltipTriggerList].map(
+        (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+      );
     </script>
-    
-</body>
+  </body>
 </html>
