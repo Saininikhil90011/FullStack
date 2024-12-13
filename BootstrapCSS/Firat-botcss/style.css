@@ -83,13 +83,18 @@ a {
 .text-light-gray {
   color: var(--bs-primary-color);
 }
+.comman-section {
+  padding: 0 0 9rem 0;
+}
 
-/* .bg-theme{
-    background-color: var(--bs-supporting-color);
-} */
+/* hero section end */
+
+/* services-section start */
+.services-section {
+  padding: 0 0 9rem 0;
+}
 
 .hero-section-video {
-  /* max-width: 100%; */
   width: 30rem;
   height: auto;
   border-radius: 2rem;
@@ -125,40 +130,59 @@ a {
   }
 }
 
-.commn-heading{
-    padding-top: 5rem; 
+.commn-heading {
+  padding-top: 5rem;
 }
-.icon-span{
-    width: 2.5rem;
-    height: 2.5rem;
-    background-color: var(--bs-secondry-color);
-    color: var(--bs-main-color);
-    
+.icon-span {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--bs-secondry-color);
+  color: var(--bs-main-color);
 }
-/* .card-box:hover{
 
-    box-shadow: rgba(149, 157, 165, 0.4) 0 8px 24px ;
-} */
 /* more-info-section */
-.more-info-section{
-    background-image: linear-gradient(rgba(22,22,22,0.9),rgba(22,22,22,0.9)),url(./images/main-back-img.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    padding: 6rem 0;
-    overflow: hidden;
+.more-info-section {
+  background-image: linear-gradient(
+      rgba(22, 22, 22, 0.9),
+      rgba(22, 22, 22, 0.9)
+    ),
+    url(./images/main-back-img.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 6rem 0;
+  overflow: hidden;
 }
-/* .more-info-section .img-section img{
-    position: absolute;
-    left: 0;
-    /* width: 70%; */
 
+/* carousal section */
 
+.carousel .card{
+  background-color: #262631;
+  color: var(--bs-main-color);
+  transition: all 0.3s linear;
+}
+.carousel-inner .card p{
+  color: var(--bs-main-color);
+}
+.carousel-inner .card:hover {
+  background-color: var(  --bs-main-color);
+  color: var(  --bs-dark-color);
+}
+.carousel-inner .card:hover p{
+  color: var(--bs-dark-color);
+}
+.fa-star{
+  color: var(  --bs-supporting-color);
+}
 
+.carousel-indicators{
+  bottom: -4rem;
+}
 
-
-
-
-
-    /* 1.13 */
+.carousel-indicators [data-bs-target]{
+  background-color: var(--bs-secondry-color);
+  width: 1.2rem;
+  height: 1.2rem;
+}
+/* 1.13 */
