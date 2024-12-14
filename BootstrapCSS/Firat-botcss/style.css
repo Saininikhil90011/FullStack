@@ -185,4 +185,44 @@ a {
   width: 1.2rem;
   height: 1.2rem;
 }
-/* 1.13 */
+/* expert panel */
+.text-gray{
+  color: var(  --bs-primary-color);
+}
+.text-light-gray{
+  color: var(  --bs-primary-color);
+}
+
+/* contect section style */
+
+.comman-section{
+  position: relative;
+}
+.custom-shape-divider-top-1734167208 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1734167208 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-top-1734167208 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.comman-title{
+  margin-top: 6rem;
+}
+.form-section{
+  width: 50%;
+
+}
+/* 1.47 */
