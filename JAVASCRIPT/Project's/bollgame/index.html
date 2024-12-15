@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catch the Ball Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .game-container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            background-color: #f0f0f0;
+            overflow: hidden;
+        }
+
+        .player {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 20px;
+            background-color: #3498db;
+            border-radius: 5px;
+        }
+
+        .ball {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 20px;
+            height: 20px;
+            background-color: #e74c3c;
+            border-radius: 50%;
+            transform: translateX(-50%);
+        }
+
+        .score {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 20px;
+            color: #333;
+        }
+
+        .game-over {
+            display: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 30px;
+            color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <div class="score">Score: 0</div>
+        <div class="game-over">Game Over!</div>
+        <div class="player"></div>
+        <div class="ball"></div>
+    </div>
+
+    <script>
+        const gameContainer = document.querySelector('.game-container');
+        const player = document.querySelector('.player');
+        const ball = document.querySelector('.ball');
+        const scoreDisplay = document.querySelector('.score');
+        const gameOverDisplay = document.querySelector('.game-over');
+
+        let score = 0;
+        let isGameOver = false;
+        let ballSpeed = 3;
+        let ballX = Math.random() * (gameContainer.offsetWidth - 20);
+        let ballY = 0;
+
+        // Ball Movement
+        function moveBall() {
+            if (isGameOver) return;
+
+            ballY += ballSpeed;
+            ball.style.top = ballY + 'px';
+            ball.style.left = ballX + 'px';
+
+            // Check collision with player
+            const playerRect = player.getBoundingClientRect();
+            const ballRect = ball.getBoundingClientRect();
+
+            if (
+                ballRect.bottom >= playerRect.top &&
+                ballRect.top <= playerRect.bottom &&
+                ballRect.right >= playerRect.left &&
+                ballRect.left <= playerRect.right
+            ) {
+                score++;
+                ballSpeed += 0.5;
+                scoreDisplay.textContent = `Score: ${score}`;
+                resetBall();
+            }
+
+            // Check if ball hits the bottom
+            if (ballY > gameContainer.offsetHeight) {
+                gameOver();
+            }
+
+            requestAnimationFrame(moveBall);
+        }
+
+        // Reset ball position
+        function resetBall() {
+            ballX = Math.random() * (gameContainer.offsetWidth - 20);
+            ballY = 0;
+        }
+
+        // Player Movement
+        document.addEventListener('mousemove', (e) => {
+            const playerWidth = player.offsetWidth;
+            let playerX = e.clientX - playerWidth / 2;
+
+            if (playerX < 0) playerX = 0;
+            if (playerX > gameContainer.offsetWidth - playerWidth) playerX = gameContainer.offsetWidth - playerWidth;
+
+            player.style.left = playerX + 'px';
+        });
+
+        // Game Over
+        function gameOver() {
+            isGameOver = true;
+            gameOverDisplay.style.display = 'block';
+        }
+
+        // Start the game
+        resetBall();
+        moveBall();
+    </script>
+</body>
+</html>
