@@ -157,45 +157,45 @@ a {
 
 /* carousal section */
 
-.carousel .card{
+.carousel .card {
   background-color: #262631;
   color: var(--bs-main-color);
   transition: all 0.3s linear;
 }
-.carousel-inner .card p{
+.carousel-inner .card p {
   color: var(--bs-main-color);
 }
 .carousel-inner .card:hover {
-  background-color: var(  --bs-main-color);
-  color: var(  --bs-dark-color);
-}
-.carousel-inner .card:hover p{
+  background-color: var(--bs-main-color);
   color: var(--bs-dark-color);
 }
-.fa-star{
-  color: var(  --bs-supporting-color);
+.carousel-inner .card:hover p {
+  color: var(--bs-dark-color);
+}
+.fa-star {
+  color: var(--bs-supporting-color);
 }
 
-.carousel-indicators{
+.carousel-indicators {
   bottom: -4rem;
 }
 
-.carousel-indicators [data-bs-target]{
+.carousel-indicators [data-bs-target] {
   background-color: var(--bs-secondry-color);
   width: 1.2rem;
   height: 1.2rem;
 }
 /* expert panel */
-.text-gray{
-  color: var(  --bs-primary-color);
+.text-gray {
+  color: var(--bs-primary-color);
 }
-.text-light-gray{
-  color: var(  --bs-primary-color);
+.text-light-gray {
+  color: var(--bs-primary-color);
 }
 
 /* contect section style */
 
-.comman-section{
+.comman-section {
   position: relative;
 }
 .custom-shape-divider-top-1734167208 {
@@ -215,70 +215,67 @@ a {
 }
 
 .custom-shape-divider-top-1734167208 .shape-fill {
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 
-.comman-title{
+.comman-title {
   margin-top: 6rem;
 }
-.form-section{
+.form-section {
   width: 50%;
-
 }
 /* footer style */
-.contact.div{
+.contact.div {
   padding: 0 0 4rem 0;
   color: var(--bs-main-color);
 }
 
-.contact-div{
+.contact-div {
   padding: 0 0 4rem 0;
   color: var(--bs-main-color);
   background-color: #222;
 }
-.icon-div img{
+.icon-div img {
   width: 5rem;
   height: 5rem;
 }
 
 /* media qureay section */
 
-
 @media screen and (max-width: 1200px) {
-  .hero-section-video{
+  .hero-section-video {
     width: 20rem;
-    border-radius: 1rem ;
+    border-radius: 1rem;
   }
 }
 
+
 @media screen and (max-width: 998px) {
-  .navbar-toggler{
+  .navbar-toggler {
     border-color: var(--bs-main-color);
   }
-  .navbar-toggler-icon{
+  .navbar-toggler-icon {
     color: var(--bs-main-color);
     background-color: var(--bs-main-color);
   }
-  
-h1{
-  font-size: 2.4rem;
-}
-section .comman-heading{
-  font-size: 2rem;
-}
-section .para-width{
-  font-size: auto;
-}
-.hero-section{
-  height: 100vh;
-  
-}
-h2{
-  font-size: 1.8rem;
-  line-height: 2.4rem;
-}
-.more-info-section{
-  text-align: center;
 
-}
+  h1 {
+    font-size: 2.4rem;
+  }
+  section .comman-heading {
+    font-size: 2rem;
+  }
+  section .para-width {
+    font-size: auto;
+  }
+  .hero-section {
+    height: 100vh;
+  }
+  h2 {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+  }
+  .more-info-section {
+    text-align: center;
+  }
 }
