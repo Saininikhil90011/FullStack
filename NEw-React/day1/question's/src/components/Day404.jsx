@@ -10,6 +10,8 @@ function Day404() {
             let response = await fetch("https://jsonplaceholder.typicode.com/photos");
             let responseData  =  await response.json();
             setphotos(responseData);
+            console.log(responseData);
+            
             //
         }
         apiCall();

@@ -1,4 +1,4 @@
-//  Q:1 get user input a number using prompt("Enter the number") check if the number is a multiplication of 5
+    //  Q:1 get user input a number using prompt("Enter the number") check if the number is a multiplication of 5
 // let num = prompt("Enter the number");
 // if (num % 5 === 0) {
 //     console.log( num ," is a multiplication of 5");

@@ -18,10 +18,10 @@ function Day501() {
 //   );
 
   return (
-    <div>
+    <div className="main">
       {catalogs["catalogs"] &&
         catalogs["catalogs"].map((item, i) => (
-          < div>
+          <>
             <p className="catalogs">{catalogs["catalogs"][i]["id"]}</p>
             <p>{catalogs["catalogs"][i]["hero_pid"]}</p>
             <p>{catalogs["catalogs"][i]["name"]}</p>
@@ -48,7 +48,7 @@ function Day501() {
             <p>{catalogs["catalogs"][i]["trend"]}</p>
             <p>{catalogs["catalogs"][i]["has_mrp"]}</p>
             <p>{catalogs["catalogs"][i]["is_added_to_wishlist"]}</p>
-            {catalogs["catalogs"][i] &&
+            {catalogs["catalogs"][i]&&
               catalogs["catalogs"][i]["product_images"].map((item, i1) => (
                 <>
                 <h1>{catalogs["catalogs"][i]["product_images"][i1]["id"]}</h1>
