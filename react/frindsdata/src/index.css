@@ -1,0 +1,21 @@
+.friends{
+    text-align: center;
+}
+.card-content{
+    width: 300px;
+    background-color: lightgray;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card-content img{
+    width: 100%;    
+}
+
+.card{
+    display: grid;
+    grid-template-rows: repeat(3 auto,200px 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+    
