@@ -31,7 +31,7 @@ const RegistrationForm = () => {
     //
 
     const apiCall = async () => {
-    const response =   await fetch("http://3.7.68.182:5000/api/auth/register", {
+    const response =   await fetch("http://13.235.78.20:5000/api/auth/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
