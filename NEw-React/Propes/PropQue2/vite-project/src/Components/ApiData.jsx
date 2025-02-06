@@ -2,7 +2,7 @@ import React from 'react'
 
 function ApiData(props) {
     let obj = props["item"]
-    console.log(props);
+    // console.log(props);
     
   return (
     <>
