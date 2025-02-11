@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { CartContext } from './Usecontext'
 
 function Singledisc({props}) {
+
+  let {add_add}=useContext(CartContext)
     const click = (obj)=>{//check kiya hai paise 5 rupee
-        props.add(obj)
+        // props.add(obj)
+        add_add(obj)
     }
+
+ 
     
   return (
     <>

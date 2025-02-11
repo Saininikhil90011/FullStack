@@ -27,7 +27,6 @@ function App() {
   let arr2 = (val1)=>{
      setmoney([...money,val1])
     
-
   }
   console.log(money);
   
@@ -121,7 +120,7 @@ function App() {
         <Offcanvas />
         <div className="offcanvas__overlay" />
 
-        <Header />
+        <Header props={{money}} />
 
         <Search />
 
@@ -510,7 +509,7 @@ function App() {
 
         <AboutUsSection />
 
-        <PopularDishesSection />
+        <PopularDishesSection props={{arr2}}/>
 
         <Ctasection />
 

@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { CartContext } from './Usecontext'
 
 function Header({props}) {
+let {obj}=  useContext(CartContext)
   console.log(props)
+
+  // let count = props.money.length
+  let count = obj.length
 
 
   
@@ -364,7 +369,9 @@ function Header({props}) {
                           <a >
                       
                             <i className="fa-sharp fa-regular fa-cart-shopping" />
-                            <span className="cart-count">{5}</span>
+                            <span className="cart-count text-success">{
+                              count
+                              }</span>
                           </a>
                           <div className="header__right__dropdown__wrapper">
                             <div className="header__right__dropdown__inner">
@@ -439,9 +446,9 @@ function Header({props}) {
                               Total: <span>$1,100.00</span>
                             </p>
                             <div className="header__right__dropdown__button">
-                              <a href="cart.html" className="theme-btn mb-2">
+                              {/* <a href="cart.html" className="theme-btn mb-2">
                                 View Cart
-                              </a>
+                              </a> */}
                               <a
                                 href="checkout.html"
                                 className="theme-btn style3"

@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import Singledisc from "./Singledisc";
 
-function PopularDishesSection() {
+function PopularDishesSection({props}) {
+  // console.log(props)
 
   const [arr, setarr] = useState([])
   let add = (val)=>{
     setarr([...arr,val])
+    props.arr2(val)
   }
   // console.log(arr);
   
